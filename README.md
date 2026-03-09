@@ -1,8 +1,7 @@
 A few different ways are available to run the exercise notebooks:
 
 # Online
-- Launch an online notebook environment using [![Binder](https://mybinder.org/badge_logo.svg)](
-https://mybinder.org/v2/gh/maihanhoang/centuri_mldl_basis?tab=readme-ov-file%2FHEAD&urlpath=%2Fdoc%2Ftree%2Findex_exercises.ipynb)
+- Launch an online notebook environment using [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maihanhoang/centuri_mldl_basis/HEAD?urlpath=%2Fdoc%2Ftree%2Findex_exercises.ipynb)
 
 # Local install instructions
 
@@ -23,8 +22,8 @@ scikit-learn, and matplotlib.
 
 ```sh
 # Clone this repo
-git clone https://github.com/INRIA/scikit-learn-mooc
-cd scikit-learn-mooc
+git clone https://github.com/maihanhoang/centuri_mldl_basis
+cd centuri_mldl_basis
 # Create a conda environment with the required packages for this tutorial:
 conda env create -f environment.yml
 ```
@@ -64,8 +63,8 @@ Using python in /home/lesteve/miniconda3/envs/scikit-learn-course
 ```sh
 # Activate your conda environment
 conda activate scikit-learn-course
-jupyter notebook full-index.ipynb
+jupyter notebook index_exercises.ipynb
 ```
 
-`full-index.ipynb` is an index file helping to navigate the notebooks.
+`index_exercises.ipynb` is an index file helping to navigate the notebooks.
 All the Jupyter notebooks are located in the `notebooks` folder.
